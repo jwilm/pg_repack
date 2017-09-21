@@ -51,7 +51,7 @@ const char *PROGRAM_VERSION = "unknown";
 /* Once we get down to seeing fewer than this many tuples in the
  * log table, we'll say that we're ready to perform the switch.
  */
-#define MIN_TUPLES_BEFORE_SWITCH	20
+#define MIN_TUPLES_BEFORE_SWITCH	APPLY_COUNT
 
 /* poll() or select() timeout, in seconds */
 #define POLL_TIMEOUT    3
